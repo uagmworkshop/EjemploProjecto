@@ -26,7 +26,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: dir  
+    - name: Run Bash    
+      run: dir
   #   - name: IIS Deploy
   # # You may pin to the exact commit or the version.
   # # uses: ChristopheLav/iis-deploy@3b6a141da6e1923a4af25e01734ab58c081f8444
