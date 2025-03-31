@@ -26,3 +26,20 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: dir  
+  #   - name: IIS Deploy
+  # # You may pin to the exact commit or the version.
+  # # uses: ChristopheLav/iis-deploy@3b6a141da6e1923a4af25e01734ab58c081f8444
+  #     uses: ChristopheLav/iis-deploy@v1.0.0
+  #     with:
+  #   # IIS website name
+  #         website-name: Pruebita
+  #   # # MS Deploy Service URL
+  #   #       msdeploy-service-url: 
+  #   # Username used by Basic authentication to the MS Deploy Service
+  #         msdeploy-username: usernmaedelservidor
+  #   # Password used by Basic authentication to the MS Deploy Service
+  #         msdeploy-password: "@lkdsfjaljfasjflas"
+  #   # The path to the source directory that will be deployed
+  #         source-path: 
+          
